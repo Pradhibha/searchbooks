@@ -1,0 +1,104 @@
+{
+    "items": [
+        {
+            "id": 4,
+            "title": "1984",
+            "authors": "George Orwell",
+            "description": "A dystopian social science fiction novel and cautionary tale about the dangers of totalitarianism.",
+            "published_date": "1949-06-07T18:30:00.000Z",
+            "genre": "Dystopian",
+            "availability": 1,
+            "isbn": null
+        },
+        {
+            "id": 24,
+            "title": "b",
+            "authors": "b",
+            "description": "b",
+            "published_date": "2024-07-25T18:30:00.000Z",
+            "genre": "fiction",
+            "availability": 1,
+            "isbn": "7894567891234"
+        },
+        {
+            "id": 26,
+            "title": "f",
+            "authors": "f",
+            "description": "f",
+            "published_date": "2024-07-18T18:30:00.000Z",
+            "genre": "fiction",
+            "availability": 1,
+            "isbn": "7894567891234"
+        },
+        {
+            "id": 25,
+            "title": "f",
+            "authors": "f",
+            "description": "f",
+            "published_date": "2024-07-17T18:30:00.000Z",
+            "genre": "fiction",
+            "availability": 1,
+            "isbn": "7894567891234"
+        },
+        {
+            "id": 23,
+            "title": "f",
+            "authors": "f",
+            "description": "f",
+            "published_date": "2024-07-24T18:30:00.000Z",
+            "genre": "fiction",
+            "availability": 1,
+            "isbn": "7894567891234"
+        },
+        {
+            "id": 20,
+            "title": "g",
+            "authors": "g",
+            "description": "g",
+            "published_date": "2024-07-29T18:30:00.000Z",
+            "genre": "fiction",
+            "availability": 1,
+            "isbn": "7894567891234"
+        },
+        {
+            "id": 22,
+            "title": "h",
+            "authors": "b",
+            "description": "f",
+            "published_date": "2024-07-18T18:30:00.000Z",
+            "genre": "fiction",
+            "availability": 1,
+            "isbn": "7894567891234"
+        },
+        {
+            "id": 19,
+            "title": "h",
+            "authors": "k",
+            "description": "k",
+            "published_date": "2024-07-19T18:30:00.000Z",
+            "genre": "fiction",
+            "availability": 1,
+            "isbn": "7894567891234"
+        },
+        {
+            "id": 5,
+            "title": "Pride and Prejudice",
+            "authors": "Jane Austen",
+            "description": "A romantic novel of manners that depicts the British Regency era.",
+            "published_date": "1813-01-27T18:06:32.000Z",
+            "genre": "Romance",
+            "availability": 1,
+            "isbn": null
+        },
+        {
+            "id": 16,
+            "title": "t",
+            "authors": "y",
+            "description": "ty",
+            "published_date": "2024-07-16T18:30:00.000Z",
+            "genre": "y",
+            "availability": 0,
+            "isbn": "7893456781234"
+        }
+    ]
+}
