@@ -7,18 +7,18 @@ A brief description of what this application does.
 LoginPage component has the registration and login features . On successful login , the application will be redirect to SearchPage 
 <br />
 ## Search Books
-<br />
+__
 A user interface for a book search functionality. Here is a breakdown of the various elements:<br />
 <br />
 **Search Fields:**<br />
-<br />
-**Search by title:** A text input for entering the book title.<br />
-**Search by author:** A text input for entering the author’s name.<br />
-**Start date:** A date picker input for specifying the start date.<br />
-**End date:** A date picker input for specifying the end date.<br />
-**Genre:** A text input for entering the genre.<br />
-<br />
-**Sort and Filter Options:**<br />
+__
+**Search by title:** A text input for entering the book title.__
+**Search by author:** A text input for entering the author’s name.__
+**Start date:** A date picker input for specifying the start date.__
+**End date:** A date picker input for specifying the end date.__
+**Genre:** A text input for entering the genre.__
+__
+**Sort and Filter Options:__
 <br />
 **Sort By:** A dropdown menu to select sorting criteria (e.g., Title, Author, Date).<br />
 **Order:** A dropdown menu to select the order of sorting (Ascending or Descending).<br />
