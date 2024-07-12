@@ -17,7 +17,7 @@ describe('Login Page', () => {
     it('Logs in with valid credentials', () => {
       cy.visit('http://localhost:3000');
   
-      // Fill out login form
+      // Fill out login form with valid credentials
       cy.get('#Username').type('book');
       cy.get('#Password').type('book');
   

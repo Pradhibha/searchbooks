@@ -1,4 +1,3 @@
-// pages/add-book.tsx
 import React from 'react';
 import { Box, Typography } from '@mui/material';
 import AddBookForm from '../components/AddBookForm';

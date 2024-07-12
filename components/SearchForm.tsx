@@ -25,8 +25,8 @@ interface SearchFormProps {
 
 const SearchForm: React.FC<SearchFormProps> = ({ query, handleChange, searchBooks, resetForm, setSearchResults }) => {
   const handleReset = () => {
-    resetForm(); // Reset form fields
-    setSearchResults([]); // Reset search results
+    resetForm(); 
+    setSearchResults([]); 
   };
 
   return (

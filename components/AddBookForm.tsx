@@ -1,4 +1,3 @@
-// AddBookForm.tsx
 import React, { useState } from 'react';
 import { Formik, Form } from 'formik';
 import * as yup from 'yup';
@@ -54,7 +53,7 @@ const AddBookForm: React.FC = () => {
             severity: 'success',
           });
           setTimeout(() => {
-            router.push('/SearchPage'); // redirect to home page or any other page
+            router.push('/SearchPage'); 
           }, 2000);
         } catch (error) {
           console.error('Error adding book:', error);
