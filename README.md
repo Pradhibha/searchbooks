@@ -5,40 +5,40 @@ A brief description of what this application does.
 ## Login
 
 LoginPage component has the registration and login features . On successful login , the application will be redirect to SearchPage 
-<br />
+
 ## Search Books
-__
+
 A user interface for a book search functionality. Here is a breakdown of the various elements:<br />
-<br />
+
 **Search Fields:**<br />
-__
-**Search by title:** A text input for entering the book title.__
-**Search by author:** A text input for entering the author’s name.__
-**Start date:** A date picker input for specifying the start date.__
-**End date:** A date picker input for specifying the end date.__
-**Genre:** A text input for entering the genre.__
-__
-**Sort and Filter Options:__
-<br />
+
+**Search by title:** A text input for entering the book title.<br />
+**Search by author:** A text input for entering the author’s name.<br />
+**Start date:** A date picker input for specifying the start date.<br />
+**End date:** A date picker input for specifying the end date.<br />
+**Genre:** A text input for entering the genre.<br />
+
+**Sort and Filter Options:**
+
 **Sort By:** A dropdown menu to select sorting criteria (e.g., Title, Author, Date).<br />
 **Order:** A dropdown menu to select the order of sorting (Ascending or Descending).<br />
 **Page Size:** A text input to specify the number of results per page.<br />
 **Page:** A text input to specify the page number of the search results.<br />
 **In-stock only:** A checkbox to filter results to show only books that are in stock.<br />
-<br />
+
 **Buttons:**
-<br />
+
 **SEARCH:** A button to initiate the search based on the specified criteria.<br />
 **RESET:** A button to reset all the search fields and filters to their default values.<br />
-<br />
+
 This interface allows users to perform detailed searches for books by various criteria, sort the results, and paginate through the results. The "In-stock only" checkbox helps users filter for availability.
-<br />
-## Search Results Table<br />
-<br />
+
+## Search Results Table
+
 The result page of a book search functionality displays a table with the search results. Here's a breakdown of the elements and data shown in the table:<br />
-<br />
+
 **Table Headers**
-<br />
+
 **ID:** The unique identifier for each book.<br />
 **Title:** The title of the book.<br />
 **Authors:** The authors of the book.<br />
@@ -47,16 +47,16 @@ The result page of a book search functionality displays a table with the search 
 **Genre:** The genre of the book.<br />
 **ISBN:** The International Standard Book Number of the book.<br />
 **Availability:** The availability status of the book.<br />
-<br />
-**Pagination and Rows per Page**<br />
-<br />
+
+**Pagination and Rows per Page**
+
 **Rows per page:** A dropdown menu to select the number of rows displayed per page. <br />
 **Page Navigation:** Buttons to navigate between pages of results<br />
-<br />
+
 ## Add New Books<br />
-<br />
+
 ## CLI Commands<br />
-<br />
+
 Install dependencies
 
 ```
