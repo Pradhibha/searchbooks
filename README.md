@@ -2,13 +2,13 @@
 
 A brief description of what this application does.
 
-## Features
+# Features
 
-# Login
+## Login
 
-# Search Books
+## Search Books
 
-# Add New Books
+## Add New Books
 
 ## CLI Commands
 
@@ -16,27 +16,36 @@ Install dependencies
 
 ```
 npm install
-
 ```
 Run app locally at http://localhost:3000
 
-`npm start`
+```
+npm start
+```
 
 Run unit tests
 
-`npm run test`
+```
+npm run test
+```
 
 To run single unit test case (Jest is used for unit and integration testing.)
 
-`npm run test -t "test file name"`
+```
+npm run test -t "test file name"
+```
 
 Run integration tests (Cypress is used for end-to-end testing.)
 
-`npm run test:cypress`
+```
+npm run test:cypress
+```
 
 Run cypress integration test in headless mode
 
-`npm run test:cypress-run`
+```
+npm run test:cypress-run
+```
 
 ## Prerequisites
 
@@ -48,14 +57,13 @@ Run cypress integration test in headless mode
 - Connect to Your Database:
  Use a database client tool (e.g., MySQL Workbench, pgAdmin for PostgreSQL) or command-line interface (e.g., MySQL command-line tool, psql for PostgreSQL) to connect to your database.
 
-'''
+```
 CREATE DATABASE your_database_name;
-'''
+```
 
 - use the below query to create table books ( From this table , you can search and add books):
 
-'''
-
+```
 
 CREATE TABLE `books` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -69,11 +77,11 @@ CREATE TABLE `books` (
   PRIMARY KEY (`id`)
 ) 
 
-'''
+```
 
 - use the below query to create table users ( users who can access to your application are saved and fetched from this table using jwt authorization and authentication):
 
-'''
+```
 -- book_search_db.users definition
 
 CREATE TABLE `users` (
@@ -85,7 +93,7 @@ CREATE TABLE `users` (
   UNIQUE KEY `username` (`username`)
 )
 
-'''
+```
 
 ## Setting up Local Environment
 
