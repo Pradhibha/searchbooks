@@ -1,10 +1,17 @@
-# Book Search App
+# BOOK SEARCH APP
 
 A brief description of what this application does.
 
 ## Login
 
-LoginPage component has the registration and login features . On successful login , the application will be redirect to SearchPage 
+LoginPage component has the registration and login features . The login page is used to authenticate users and grant them access to a protected area of a website or application. Users must provide valid credentials (username and password) to proceed.The authentication and authorization is done using jwt and hashpasswords are saved
+
+**Elements of the Login Page:**
+
+**Username Field:** A text input field where users are required to enter their username.<br />
+**Password Field:** A password input field where users are required to enter their password. The characters typed in this field are typically masked to prevent onlookers from seeing the password.<br />
+**Login Button:** A button that users click to submit their username and password for authentication.<br />
+**Register Link:** A link for users who do not have an account. The "DON'T HAVE AN ACCOUNT? REGISTER" link is for users who need to create a new account. This feature ensures that only registered users can access the protected resources of the application. <br />
 
 ## Search Books
 
@@ -54,6 +61,19 @@ The result page of a book search functionality displays a table with the search 
 **Page Navigation:** Buttons to navigate between pages of results<br />
 
 ## Add New Books<br />
+
+The purpose of the add book functionality is to gather all necessary details about a book that needs to be added to a library or inventory system. Users are required to fill out the form with accurate information about the book and submit it to include the book in the system's database.
+
+**Elements of the Add Book Form:**<br />
+
+**Title Field:** A text input field where users enter the title of the book.<br />
+**Authors Field:** A text input field where users enter the name(s) of the author(s) of the book.<br />
+**Description Field:** A text input field where users provide a brief description or summary of the book.<br />
+**Published Date Field:** A date input field where users enter the publication date of the book. The placeholder format dd/mm/yyyy indicates the expected date format.<br />
+**Genre Field:** A text input field where users enter the genre of the book, such as fiction, non-fiction, mystery, etc.<br />
+**Availability Checkbox:** A checkbox to indicate whether the book is currently available. If checked, the book is in stock.<br />
+**ISBN Field:** A text input field where users enter the International Standard Book Number (ISBN) of the book, which is a unique identifier for books.<br />
+**Submit Button:** A button that users click to submit the form and add the book to the system.<br />
 
 ## CLI Commands<br />
 
